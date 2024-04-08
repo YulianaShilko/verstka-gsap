@@ -1,0 +1,324 @@
+/* common */
+@media screen and (max-width: 1440px) {
+    .subtitle {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .heading {
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+    .back-nav {
+        margin-top: 70px;
+        margin-right: 100px;
+        margin-left: -188px;
+    }
+
+    .forward {
+        margin-top: 70px;
+    }
+
+    .form {
+        margin-left: 188px;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .subtitle {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .heading {
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .back-nav {
+        width: 56px;
+        margin-top: 50px;
+        margin-right: 30px;
+        margin-left: -86px;
+    }
+
+    .btn-back {
+        width: 60px;
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+
+    .form {
+        margin-left: 86px;
+    }
+
+    .forward {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 4rem auto;
+    }
+
+    .back-nav {
+        margin-left: -86px;
+    }
+
+    .form {
+        margin-left: 86px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .back-nav {
+        width: 40px;
+        margin-top: 70px;
+        margin-right: 10px;
+        margin-left: -43px;
+    }
+
+    .btn-back {
+        width: 40px;
+        font-size: 7px;
+    }
+
+    .forward {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        margin: 0 2rem auto;
+    }
+}
+
+/* footer */
+@media screen and (max-width: 1440px) {
+    .btn-contact {
+        top: 210px;
+    }
+
+    .info-block {
+        padding: 0 25px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .btn-contact {
+        top: 210px;
+    }
+
+    .info-block {
+        padding: 0 18px;
+    }
+
+    .nav-heading,
+    .nav,
+    .info {
+        font-size: 12px;
+        line-height: 12.2px;
+    }
+
+    .info-block:first-of-type {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact {
+        width: 30%;
+    }
+
+    .btn-contact {
+        top: 160px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .pages,
+    .social {
+        width: 35%;
+    }
+
+    .info-block {
+        padding: 0 8px;
+    }
+
+    .nav-heading,
+    .nav,
+    .info {
+        font-size: 12px;
+        line-height: 12.2px;
+    }
+
+    .info-block:first-of-type {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        width: 0%;
+    }
+
+    .pages,
+    .social {
+        width: 50%;
+        margin-top: 33px;
+    }
+
+    .info {
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .info-block {
+        width: 100%;
+        border-left: none;
+        border-right: none;
+        padding: 5px 0;
+    }
+
+    .content {
+        margin-bottom: 0px;
+    }
+
+    .info-block {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .pages {
+        padding: 0 0;
+    }
+
+    .social {
+        align-items: flex-start;
+    }
+
+    .content {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .btn-contact {
+        width: 165px;
+        height: 42px;
+        top: 158px;
+    }
+
+    .info-block {
+        height: 25px;
+    }
+
+}
+
+
+
+/* //table */
+@media screen and (max-width: 1024px) {
+
+    .request,
+    .attachments {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+
+    input,
+    select,
+    textarea,
+    .attachment-field {
+        padding: 10px 18px 10px 18px;
+        font-size: 13px;
+        line-height: 16.4px;
+    }
+
+    .caption {
+        margin-left: 0px;
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+
+    .touch {
+        margin-top: 20px;
+    }
+
+    .company-phone {
+        flex-direction: column;
+    }
+
+    .company-field,
+    .phone-field {
+        width: 100%;
+    }
+
+    .request-label {
+        width: 100%;
+    }
+
+    .footnote {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form {
+        margin-left: 0;
+    }
+
+    input,
+    select,
+    textarea,
+    .attachment-field {
+        padding: 5px 8px 5px 8px;
+        font-size: 10px;
+        line-height: 12.4px;
+    }
+
+    .caption {
+        margin-left: 0px;
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+
+    .touch input {
+        margin-bottom: 12px;
+    }
+
+    .project-desc,
+    .attachments,
+    .submition {
+        margin-top: 25px;
+    }
+
+    .touch .caption,
+    .project-desc .caption {
+        margin-bottom: 8px;
+    }
+
+    .sendBtn,
+    .browse-btn {
+        font-size: 10px;
+    }
+
+    .footnote {
+        font-size: 10px;
+    }
+}
